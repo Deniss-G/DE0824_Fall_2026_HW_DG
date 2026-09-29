@@ -37,7 +37,7 @@
         font-style: italic;
         }
     ul {
-        color: orange;
+        color: rgb(34, 34, 99);
         text-align: left;
         font-family: Arial, sans-serif;
         font-size: 20px;
@@ -45,7 +45,7 @@
         }
 
     ol {
-        color: orange;
+        color: rgb(52, 250, 8);
         text-align: left;
         font-family: Arial, sans-serif;
         font-size: 20px;
