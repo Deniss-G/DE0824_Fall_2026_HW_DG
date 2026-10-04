@@ -56,7 +56,8 @@
         }
 
     .image {
-        width: 400 px;
-        height: auto;
-        border-radius: 12px;
+        display: block;
+        margin: 20 px auto;
+        max-width: 600px;
+        height: 500px;
     }
