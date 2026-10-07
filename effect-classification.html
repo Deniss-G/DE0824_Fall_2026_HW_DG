@@ -9,7 +9,7 @@
 <body>
     <header id="my-header">
        <h1>Audio Processing Effect Classification</h1>
-        <nav>
+        <nav class="my-container">
             <a href="index.html">Return home</a><br>
             <a href="effect-descriptions.html">Go to descriptions</a><br>
             <a href="#my-footer">Go to bottom</a>
@@ -19,269 +19,275 @@
         <section>
         <h2> Audio effect classification</h2>
             <h3>Below is a comprehensive list and classification of audio processing effects.</h3>
-            <ul>
-            <li><strong>Dynamics — signal loudness / dynamic range</strong>
-                <p>Effects that react to or manipulate <strong>signal level</strong>.</p>
-                 <ul>
-            <li><strong>Compressor</strong> — reduces dynamic range</li>
-            <li><strong>Limiter</strong> — prevents signal from exceeding a threshold</li>
-            <li><strong>Brickwall limiter</strong> — extremely strict peak limiting</li>
-            <li><strong>Expander</strong> — increases dynamic range</li>
-            <li><strong>Downward expander</strong> — makes quiet signals quieter</li>
-            <li><strong>Upward expander</strong> — makes loud signals louder</li>
-            <li><strong>Noise gate / gate</strong> — attenuates or mutes signals below a threshold</li>
-            <li><strong>Ducker</strong> — lowers one signal when another is present</li>
-            <li><strong>De-esser</strong> — frequency-selective compression of sibilance</li>
-            <li><strong>De-plosive / dynamic low-frequency suppression</strong></li>
-            <li><strong>Multiband compressor</strong></li>
-            <li><strong>Multiband limiter</strong></li>
-            <li><strong>Multiband expander</strong></li>
-            <li><strong>Dynamic EQ</strong></li>
-            <li><strong>Upward compressor</strong> — raises quieter material</li>
-            <li><strong>Parallel compression</strong></li>
-            <li><strong>Sidechain compression</strong></li>
-            <li><strong>Transient shaper / transient designer</strong> — changes attack and sustain</li>
-            <li><strong>Leveler / automatic gain control (AGC)</strong></li>
-            <li><strong>Volume rider / automatic fader</strong></li>
-            <li><strong>Maximizer</strong> — limiting + level maximization</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Spectral filtering — frequency content</strong>
-        <p>Effects that alter the <strong>frequency spectrum</strong>.</p>
+    <ul>
+        <li>Dynamics — signal loudness / dynamic range
+        <p>Effects that react to or manipulate signal level.</p>
         <ul>
-            <li><strong>Equalizer (EQ)</strong></li>
-            <li><strong>Graphic EQ</strong></li>
-            <li><strong>Parametric EQ</strong></li>
-            <li><strong>Semi-parametric EQ</strong></li>
-            <li><strong>Shelving EQ</strong></li>
-            <li><strong>Low-shelf filter</strong></li>
-            <li><strong>High-shelf filter</strong></li>
-            <li><strong>Peaking / bell filter</strong></li>
-            <li><strong>Low-pass filter (LPF)</strong></li>
-            <li><strong>High-pass filter (HPF)</strong></li>
-            <li><strong>Band-pass filter (BPF)</strong></li>
-            <li><strong>Band-stop / band-reject filter</strong></li>
-            <li><strong>Notch filter</strong></li>
-            <li><strong>All-pole / resonant filter</strong></li>
-            <li><strong>Comb filter</strong></li>
-            <li><strong>Tilt EQ</strong></li>
-            <li><strong>Loudness EQ</strong></li>
-            <li><strong>Tone control</strong></li>
-            <li><strong>Presence control</strong></li>
-            <li><strong>Resonant filter</strong></li>
-            <li><strong>Formant filter</strong></li>
-            <li><strong>Vowel filter</strong></li>
-            <li><strong>Filter bank</strong></li>
-            <li><strong>Crossover</strong></li>
-            <li><strong>Multiband crossover</strong></li>
-            <li><strong>FIR filter</strong></li>
-            <li><strong>IIR filter</strong></li>
-            <li><strong>Linear-phase EQ</strong></li>
-            <li><strong>Minimum-phase EQ</strong></li>
-            <li><strong>Matched EQ / spectrum matching</strong></li>
-            <li><strong>Auto-filter / envelope filter</strong></li>
-            <li><strong>Wah-wah</strong></li>
-            <li><strong>Talk-box/formant-style filtering</strong></li>
-            <li><strong>Spectral shaping / spectral EQ</strong></li>
+            <li>Compressor — reduces dynamic range</li>
+            <li>Limiter — prevents signal from exceeding a threshold</li>
+            <li>Brickwall limiter — extremely strict peak limiting</li>
+            <li>Expander — increases dynamic range</li>
+            <li>Downward expander — makes quiet signals quieter</li>
+            <li>Upward expander — makes loud signals louder</li>
+            <li>Noise gate / gate — attenuates or mutes signals below a threshold</li>
+            <li>Ducker — lowers one signal when another is present</li>
+            <li>De-esser — frequency-selective compression of sibilance</li>
+            <li>De-plosive / dynamic low-frequency suppression</li>
+            <li>Multiband compressor</li>
+            <li>Multiband limiter</li>
+            <li>Multiband expander</li>
+            <li>Dynamic EQ</li>
+            <li>Upward compressor — raises quieter material</li>
+            <li>Parallel compression</li>
+            <li>Sidechain compression</li>
+            <li>Transient shaper / transient designer — changes attack and sustain</li>
+            <li>Leveler / automatic gain control (AGC)</li>
+            <li>Volume rider / automatic fader</li>
+            <li>Maximizer — limiting + level maximization</li>
         </ul>
     </li>
+
     <li>
-        <strong>Clipping &amp; Distortion — nonlinear processing</strong>
-        <p>Effects that change the waveform through <strong>nonlinear processing</strong>, usually generating new harmonics.</p>
+        Spectral filtering — frequency content
+        <p>Effects that alter the frequency spectrum.</p>
         <ul>
-            <li><strong>Clipping</strong></li>
-            <li><strong>Hard clipping</strong></li>
-            <li><strong>Soft clipping</strong></li>
-            <li><strong>Overdrive</strong></li>
-            <li><strong>Distortion</strong></li>
-            <li><strong>Fuzz</strong></li>
-            <li><strong>Saturation</strong></li>
-            <li><strong>Tape saturation</strong></li>
-            <li><strong>Tube / valve saturation</strong></li>
-            <li><strong>Transformer saturation</strong></li>
-            <li><strong>Console saturation</strong></li>
-            <li><strong>Preamp saturation</strong></li>
-            <li><strong>Analog-modelled distortion</strong></li>
-            <li><strong>Waveshaping</strong></li>
-            <li><strong>Wavefolding</strong></li>
-            <li><strong>Rectification</strong></li>
-            <li><strong>Asymmetric distortion</strong></li>
-            <li><strong>Harmonic exciter</strong></li>
-            <li><strong>Harmonic enhancer</strong></li>
-            <li><strong>Bit crusher</strong></li>
-            <li><strong>Bit-depth reduction</strong></li>
-            <li><strong>Sample-rate reduction / downsampling</strong></li>
-            <li><strong>Digital clipping</strong></li>
-            <li><strong>Lo-fi degradation</strong></li>
-            <li><strong>Aliasing distortion</strong></li>
-            <li><strong>Speaker / cabinet distortion</strong></li>
-            <li><strong>Amp simulation</strong></li>
-            <li><strong>Guitar amp distortion</strong></li>
-            <li><strong>Tape overdrive</strong></li>
+            <li>Equalizer (EQ)</li>
+            <li>Graphic EQ</li>
+            <li>Parametric EQ</li>
+            <li>Semi-parametric EQ</li>
+            <li>Shelving EQ</li>
+            <li>Low-shelf filter</li>
+            <li>High-shelf filter</li>
+            <li>Peaking / bell filter</li>
+            <li>Low-pass filter (LPF)</li>
+            <li>High-pass filter (HPF)</li>
+            <li>Band-pass filter (BPF)</li>
+            <li>Band-stop / band-reject filter</li>
+            <li>Notch filter</li>
+            <li>All-pole / resonant filter</li>
+            <li>Comb filter</li>
+            <li>Tilt EQ</li>
+            <li>Loudness EQ</li>
+            <li>Tone control</li>
+            <li>Presence control</li>
+            <li>Resonant filter</li>
+            <li>Formant filter</li>
+            <li>Vowel filter</li>
+            <li>Filter bank</li>
+            <li>Crossover</li>
+            <li>Multiband crossover</li>
+            <li>FIR filter</li>
+            <li>IIR filter</li>
+            <li>Linear-phase EQ</li>
+            <li>Minimum-phase EQ</li>
+            <li>Matched EQ / spectrum matching</li>
+            <li>Auto-filter / envelope filter</li>
+            <li>Wah-wah</li>
+            <li>Talk-box/formant-style filtering</li>
+            <li>Spectral shaping / spectral EQ</li>
         </ul>
     </li>
+
     <li>
-        <strong>Delay &amp; time effects — copies of the signal</strong>
-        <p>Effects based primarily on <strong>delayed copies of the original signal</strong>.</p>
+        Clipping &amp; Distortion — nonlinear processing
+        <p>Effects that change the waveform through nonlinear processing, usually generating new harmonics.</p>
         <ul>
-            <li><strong>Delay</strong></li>
-            <li><strong>Digital delay</strong></li>
-            <li><strong>Analog delay</strong></li>
-            <li><strong>Tape delay</strong></li>
-            <li><strong>Single-tap delay</strong></li>
-            <li><strong>Multi-tap delay</strong></li>
-            <li><strong>Stereo delay</strong></li>
-            <li><strong>Ping-pong delay</strong></li>
-            <li><strong>Slapback delay</strong></li>
-            <li><strong>Echo</strong></li>
-            <li><strong>Feedback delay</strong></li>
-            <li><strong>Cross-feedback delay</strong></li>
-            <li><strong>Filtered delay</strong></li>
-            <li><strong>Modulated delay</strong></li>
-            <li><strong>Rhythmic / tempo-synced delay</strong></li>
-            <li><strong>Reverse delay</strong></li>
-            <li><strong>Granular delay</strong></li>
-            <li><strong>Freeze delay</strong></li>
-            <li><strong>Haas delay / precedence effect</strong></li>
-            <li><strong>Automatic double tracking (ADT)</strong></li>
-            <li><strong>Doubling / double-tracking effect</strong></li>
-            <li><strong>Micro-delay / stereo widening</strong></li>
-            <li><strong>Looper</strong> — long-duration repetition rather than a conventional effect</li>
-            <li><strong>Comb filtering</strong> — very short delay + original signal</li>
+            <li>Clipping</li>
+            <li>Hard clipping</li>
+            <li>Soft clipping</li>
+            <li>Overdrive</li>
+            <li>Distortion</li>
+            <li>Fuzz</li>
+            <li>Saturation</li>
+            <li>Tape saturation</li>
+            <li>Tube / valve saturation</li>
+            <li>Transformer saturation</li>
+            <li>Console saturation</li>
+            <li>Preamp saturation</li>
+            <li>Analog-modelled distortion</li>
+            <li>Waveshaping</li>
+            <li>Wavefolding</li>
+            <li>Rectification</li>
+            <li>Asymmetric distortion</li>
+            <li>Harmonic exciter</li>
+            <li>Harmonic enhancer</li>
+            <li>Bit crusher</li>
+            <li>Bit-depth reduction</li>
+            <li>Sample-rate reduction / downsampling</li>
+            <li>Digital clipping</li>
+            <li>Lo-fi degradation</li>
+            <li>Aliasing distortion</li>
+            <li>Speaker / cabinet distortion</li>
+            <li>Amp simulation</li>
+            <li>Guitar amp distortion</li>
+            <li>Tape overdrive</li>
         </ul>
-        <p><strong>Chorus, flanger and some phasers are also delay-related</strong>, but it is usually more useful to classify them under modulation.</p>
     </li>
+
     <li>
-        <strong>Reverb — simulated acoustic persistence</strong>
+        Delay &amp; time effects — copies of the signal
+        <p>Effects based primarily on delayed copies of the original signal.</p>
+        <ul>
+            <li>Delay</li>
+            <li>Digital delay</li>
+            <li>Analog delay</li>
+            <li>Tape delay</li>
+            <li>Single-tap delay</li>
+            <li>Multi-tap delay</li>
+            <li>Stereo delay</li>
+            <li>Ping-pong delay</li>
+            <li>Slapback delay</li>
+            <li>Echo</li>
+            <li>Feedback delay</li>
+            <li>Cross-feedback delay</li>
+            <li>Filtered delay</li>
+            <li>Modulated delay</li>
+            <li>Rhythmic / tempo-synced delay</li>
+            <li>Reverse delay</li>
+            <li>Granular delay</li>
+            <li>Freeze delay</li>
+            <li>Haas delay / precedence effect</li>
+            <li>Automatic double tracking (ADT)</li>
+            <li>Doubling / double-tracking effect</li>
+            <li>Micro-delay / stereo widening</li>
+            <li>Looper — long-duration repetition rather than a conventional effect</li>
+            <li>Comb filtering — very short delay + original signal</li>
+        </ul>
+        <p>Chorus, flanger and some phasers are also delay-related, but it is usually more useful to classify them under modulation.</p>
+    </li>
+
+    <li>
+        Reverb — simulated acoustic persistence
         <p>Technically constructed from delays/reflections, but important enough to be its own category.</p>
         <ul>
-            <li><strong>Room reverb</strong></li>
-            <li><strong>Hall reverb</strong></li>
-            <li><strong>Chamber reverb</strong></li>
-            <li><strong>Plate reverb</strong></li>
-            <li><strong>Spring reverb</strong></li>
-            <li><strong>Cathedral reverb</strong></li>
-            <li><strong>Ambience reverb</strong></li>
-            <li><strong>Early-reflections processor</strong></li>
-            <li><strong>Algorithmic reverb</strong></li>
-            <li><strong>Convolution reverb</strong></li>
-            <li><strong>Impulse-response (IR) reverb</strong></li>
-            <li><strong>Nonlinear reverb</strong></li>
-            <li><strong>Gated reverb</strong></li>
-            <li><strong>Reverse reverb</strong></li>
-            <li><strong>Shimmer reverb</strong></li>
-            <li><strong>Modulated reverb</strong></li>
-            <li><strong>Infinite / freeze reverb</strong></li>
-            <li><strong>Bloom reverb</strong></li>
-            <li><strong>Cloud / ambient reverb</strong></li>
-            <li><strong>Granular reverb</strong></li>
-            <li><strong>Ducked reverb</strong></li>
-            <li><strong>Dynamic reverb</strong></li>
-            <li><strong>Hybrid reverb</strong></li>
-            <li><strong>Surround / immersive reverb</strong></li>
+            <li>Room reverb</li>
+            <li>Hall reverb</li>
+            <li>Chamber reverb</li>
+            <li>Plate reverb</li>
+            <li>Spring reverb</li>
+            <li>Cathedral reverb</li>
+            <li>Ambience reverb</li>
+            <li>Early-reflections processor</li>
+            <li>Algorithmic reverb</li>
+            <li>Convolution reverb</li>
+            <li>Impulse-response (IR) reverb</li>
+            <li>Nonlinear reverb</li>
+            <li>Gated reverb</li>
+            <li>Reverse reverb</li>
+            <li>Shimmer reverb</li>
+            <li>Modulated reverb</li>
+            <li>Infinite / freeze reverb</li>
+            <li>Bloom reverb</li>
+            <li>Cloud / ambient reverb</li>
+            <li>Granular reverb</li>
+            <li>Ducked reverb</li>
+            <li>Dynamic reverb</li>
+            <li>Hybrid reverb</li>
+            <li>Surround / immersive reverb</li>
+        </ul>
+    </li>
+
+    <li>
+        Modulation — parameters changing over time
+        <p>Effects where an oscillator, envelope, audio signal, etc. modulates some property of the signal.</p>
+        <ul>
+            <li>Chorus — modulated short delays</li>
+            <li>Flanger — very short modulated delay + feedback</li>
+            <li>Phaser — modulated phase-shift stages</li>
+            <li>Tremolo — amplitude modulation</li>
+            <li>Vibrato — pitch modulation</li>
+            <li>Rotary speaker / Leslie</li>
+            <li>Auto-pan</li>
+            <li>Panner</li>
+            <li>Ring modulation</li>
+            <li>Amplitude modulation (AM)</li>
+            <li>Frequency modulation (FM)</li>
+            <li>Frequency shifter</li>
+            <li>Pitch modulation</li>
+            <li>Filter modulation</li>
+            <li>Auto-wah</li>
+            <li>Envelope filter</li>
+            <li>LFO-controlled filter</li>
+            <li>LFO-controlled delay</li>
+            <li>Modulated reverb</li>
+            <li>Scanner / scanner vibrato</li>
+            <li>Uni-Vibe</li>
+            <li>Doppler effect</li>
+            <li>Rhythmic gating / trance gate</li>
+            <li>Chopper</li>
+            <li>Stutter modulation</li>
+        </ul>
+    </li>
+
+    <li>
+        Noise reduction — unwanted-signal removal
+        <p>Effects/processors intended to remove noise, interference or unwanted components.</p>
+        <ul>
+            <li>Noise reduction / denoiser</li>
+            <li>Broadband denoising</li>
+            <li>Spectral denoising</li>
+            <li>Adaptive noise reduction</li>
+            <li>Noise profiling / noise-print reduction</li>
+            <li>Noise suppression</li>
+            <li>Hum removal</li>
+            <li>De-hum</li>
+            <li>50/60 Hz mains hum filtering</li>
+            <li>Buzz removal</li>
+            <li>Hiss reduction</li>
+            <li>De-click</li>
+            <li>De-crackle</li>
+            <li>De-pop</li>
+            <li>De-plosive</li>
+            <li>De-rustle</li>
+            <li>De-wind</li>
+            <li>De-reverb</li>
+            <li>De-bleed</li>
+            <li>Feedback suppression</li>
+            <li>Automatic feedback elimination</li>
+            <li>Interference removal</li>
+            <li>Spectral repair</li>
+            <li>Audio restoration</li>
+            <li>Dialogue isolation</li>
+            <li>Voice isolation</li>
+            <li>Source separation</li>
+            <li>Background-noise suppression</li>
+            <li>AI/ML noise suppression</li>
+            <li>Noise gate — overlaps with dynamics</li>
+            <li>Downward expander — overlaps with dynamics</li>
         </ul>
     </li>
     <li>
-        <strong>Modulation — parameters changing over time</strong>
-        <p>Effects where an oscillator, envelope, audio signal, etc. <strong>modulates some property of the signal</strong>.</p>
+        Phase &amp; polarity
+        <p>Processing concerned primarily with phase relationships, timing alignment and polarity.</p>
         <ul>
-            <li><strong>Chorus</strong> — modulated short delays</li>
-            <li><strong>Flanger</strong> — very short modulated delay + feedback</li>
-            <li><strong>Phaser</strong> — modulated phase-shift stages</li>
-            <li><strong>Tremolo</strong> — amplitude modulation</li>
-            <li><strong>Vibrato</strong> — pitch modulation</li>
-            <li><strong>Rotary speaker / Leslie</strong></li>
-            <li><strong>Auto-pan</strong></li>
-            <li><strong>Panner</strong></li>
-            <li><strong>Ring modulation</strong></li>
-            <li><strong>Amplitude modulation (AM)</strong></li>
-            <li><strong>Frequency modulation (FM)</strong></li>
-            <li><strong>Frequency shifter</strong></li>
-            <li><strong>Pitch modulation</strong></li>
-            <li><strong>Filter modulation</strong></li>
-            <li><strong>Auto-wah</strong></li>
-            <li><strong>Envelope filter</strong></li>
-            <li><strong>LFO-controlled filter</strong></li>
-            <li><strong>LFO-controlled delay</strong></li>
-            <li><strong>Modulated reverb</strong></li>
-            <li><strong>Scanner / scanner vibrato</strong></li>
-            <li><strong>Uni-Vibe</strong></li>
-            <li><strong>Doppler effect</strong></li>
-            <li><strong>Rhythmic gating / trance gate</strong></li>
-            <li><strong>Chopper</strong></li>
-            <li><strong>Stutter modulation</strong></li>
-        </ul>
-    </li>
-    <li>
-        <strong>Noise reduction — unwanted-signal removal</strong>
-        <p>Effects/processors intended to remove <strong>noise, interference or unwanted components</strong>.</p>
-        <ul>
-            <li><strong>Noise reduction / denoiser</strong></li>
-            <li><strong>Broadband denoising</strong></li>
-            <li><strong>Spectral denoising</strong></li>
-            <li><strong>Adaptive noise reduction</strong></li>
-            <li><strong>Noise profiling / noise-print reduction</strong></li>
-            <li><strong>Noise suppression</strong></li>
-            <li><strong>Hum removal</strong></li>
-            <li><strong>De-hum</strong></li>
-            <li><strong>50/60 Hz mains hum filtering</strong></li>
-            <li><strong>Buzz removal</strong></li>
-            <li><strong>Hiss reduction</strong></li>
-            <li><strong>De-click</strong></li>
-            <li><strong>De-crackle</strong></li>
-            <li><strong>De-pop</strong></li>
-            <li><strong>De-plosive</strong></li>
-            <li><strong>De-rustle</strong></li>
-            <li><strong>De-wind</strong></li>
-            <li><strong>De-reverb</strong></li>
-            <li><strong>De-bleed</strong></li>
-            <li><strong>Feedback suppression</strong></li>
-            <li><strong>Automatic feedback elimination</strong></li>
-            <li><strong>Interference removal</strong></li>
-            <li><strong>Spectral repair</strong></li>
-            <li><strong>Audio restoration</strong></li>
-            <li><strong>Dialogue isolation</strong></li>
-            <li><strong>Voice isolation</strong></li>
-            <li><strong>Source separation</strong></li>
-            <li><strong>Background-noise suppression</strong></li>
-            <li><strong>AI/ML noise suppression</strong></li>
-            <li><strong>Noise gate</strong> — overlaps with dynamics</li>
-            <li><strong>Downward expander</strong> — overlaps with dynamics</li>
-        </ul>
-    </li>
-    <li>
-        <strong>Phase &amp; polarity</strong>
-        <p>Processing concerned primarily with <strong>phase relationships, timing alignment and polarity</strong>.</p>
-        <ul>
-            <li><strong>Polarity inversion / polarity reverse</strong></li>
-            <li><strong>Phase inversion</strong> — often used informally for polarity inversion, though technically different</li>
-            <li><strong>Phase shift</strong></li>
-            <li><strong>Phase rotator</strong></li>
-            <li><strong>All-pass filter</strong></li>
-            <li><strong>Variable phase adjustment</strong></li>
-            <li><strong>Phase alignment</strong></li>
-            <li><strong>Automatic phase alignment</strong></li>
-            <li><strong>Time alignment</strong></li>
-            <li><strong>Sample alignment</strong></li>
-            <li><strong>Delay-based phase alignment</strong></li>
-            <li><strong>Phase correction</strong></li>
-            <li><strong>Phase matching</strong></li>
-            <li><strong>Linear-phase processing</strong></li>
-            <li><strong>Minimum-phase processing</strong></li>
-            <li><strong>Phase dispersion</strong></li>
-            <li><strong>Phase rotation</strong></li>
-            <li><strong>Stereo phase adjustment</strong></li>
-            <li><strong>Mid/side phase manipulation</strong></li>
-            <li><strong>Correlation correction</strong></li>
-            <li><strong>Comb-filter correction</strong></li>
-            <li><strong>Speaker/driver phase alignment</strong></li>
+            <li>Polarity inversion / polarity reverse</li>
+            <li>Phase inversion — often used informally for polarity inversion, though technically different</li>
+            <li>Phase shift</li>
+            <li>Phase rotator</li>
+            <li>All-pass filter</li>
+            <li>Variable phase adjustment</li>
+            <li>Phase alignment</li>
+            <li>Automatic phase alignment</li>
+            <li>Time alignment</li>
+            <li>Sample alignment</li>
+            <li>Delay-based phase alignment</li>
+            <li>Phase correction</li>
+            <li>Phase matching</li>
+            <li>Linear-phase processing</li>
+            <li>Minimum-phase processing</li>
+            <li>Phase dispersion</li>
+            <li>Phase rotation</li>
+            <li>Stereo phase adjustment</li>
+            <li>Mid/side phase manipulation</li>
+            <li>Correlation correction</li>
+            <li>Comb-filter correction</li>
+            <li>Speaker/driver phase alignment</li>
         </ul>
     </li>
 </ul>
 </section>
 </main>
-<footer id="my-footer">
+<footer id="my-footer" class="my-footer">
     <a href="#my-header" target="_blank">Back to top</a><br>
 </footer>
 </body>

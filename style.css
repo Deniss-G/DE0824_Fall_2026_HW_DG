@@ -4,6 +4,25 @@
     body {
         background-color: lightgray;
     }
+
+   .my-container {
+            color: rgb(250, 4, 221);
+            background-color: lightskyblue;
+            width: 200px;
+            height: 100px;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+    .my-footer {
+                color: rgb(250, 4, 221);
+                background-color: lightskyblue;
+                width: 130px;
+                height: 50px;
+                padding: 10px;
+                border-radius: 20px;
+                margin: 5px;
+            }
     nav {
         color: green;
         text-align: left;
@@ -37,9 +56,9 @@
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
         font-align: left;
-        font-style: italic;
+        max-width: 400px;
         }
-         span {
+    span {
         color: rgb(77, 0, 128);
         font-family: 'Times New Roman', Times, serif;
         font-size: 20px;
