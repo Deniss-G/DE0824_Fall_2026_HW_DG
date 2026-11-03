@@ -1,96 +1,95 @@
-    * {
-        box-sizing: border-box;
-    }
-    body {
-        background-color: lightgray;
-    }
+* {
+    box-sizing: border-box;
+}
 
-   .my-container {
-            color: rgb(250, 4, 221);
-            background-color: lightskyblue;
-            width: 200px;
-            height: 100px;
-            padding: 10px;
-            border-radius: 20px;
-            margin: 5px;
-        }
-    .my-footer {
-                color: rgb(250, 4, 221);
-                background-color: lightskyblue;
-                width: 130px;
-                height: 50px;
-                padding: 10px;
-                border-radius: 20px;
-                margin: 5px;
-            }
-    nav {
-        color: green;
-        text-align: left;
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        font-style: bold;
-    }
-      footer {
-        color: green;
-        text-align: left;
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        font-style: bold;
-    }
-    h1{
-        color: purple;
-        text-align: center;
-        font-family: Arial, sans-serif;
-        font-size: 30px;
-        font-style: bold;
-        }
-    h2{
-        color: purple;
-        text-align: center;
-        font-family: Arial, sans-serif;
-        font-size: 25px;
-        font-style: bold;
-        }
-    p {
-        color: rgb(77, 0, 128);
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        font-align: left;
-        max-width: 600px;
-        }
-    span {
-        color: rgb(77, 0, 128);
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        font-align: left;
-        font-style: italic;
-        }
-    ul {
-        color: rgb(34, 34, 99);
-        text-align: left;
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        font-style: normal;
-        margin-bottom: 30px;
-        }
+body {
+    background-color: lightgray;
+}
 
-    ol {
-        color: rgb(52, 250, 8);
-        text-align: left;
-        font-family: Arial, sans-serif;
-        font-size: 20px;
-        font-style: normal;
+.my-container {
+    color: rgb(250, 4, 221);
+    background-color: lightskyblue;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+.my-footer {
+    color: rgb(250, 4, 221);
+    background-color: lightskyblue;
+    width: 130px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+}
+nav {
+    color: green;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+footer {
+    color: green;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+h1 {
+    color: purple;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-style: bold;
+}
+h2 {
+    color: purple;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-style: bold;
+}
+p {
+    color: rgb(77, 0, 128);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    max-width: 600px;
         }
+span {
+    color: rgb(77, 0, 128);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-align: left;
+    font-style: italic;
+}
+ul {
+    color: rgb(34, 34, 99);
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+ol {
+    color: rgb(52, 250, 8);
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+}
+.image {
+    display: block;
+    margin: 20 px auto;
+    max-width: 600px;
+    height: 500px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 
-    .image {
-        display: block;
-        margin: 20 px auto;
-        max-width: 600px;
-        height: 500px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-    }
-
-    .secret {
-        display: none;
-    }
+.secret {
+    display: none;
+}
