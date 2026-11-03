@@ -17,7 +17,7 @@ p {
 
 .image {
         display: block;
-        margin: 20 px auto;
+        margin: 20px auto;
         max-width: 600px;
         height: 500px;
         margin-bottom: 15px;
@@ -83,10 +83,8 @@ header {
 .hero {
     display: grid;
     gap: 10px;
-    grid-template-areas:
-    "hero-feature"
-    "hero-action"
-    "desktop-ad";
+    grid-template-columns: 1fr;
+    grid-template-areas:"hero-action";
 }
 
 .hero-feature {
@@ -200,7 +198,7 @@ header {
 
 .hero {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
     gap: 10px;
     grid-template-areas:
     "hero-feature"
@@ -233,8 +231,8 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     gap: 10px;
     grid-template-areas:
     "article-feature"
