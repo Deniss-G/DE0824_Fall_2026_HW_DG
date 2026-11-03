@@ -1,0 +1,399 @@
+/* GENERAL */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+p {
+    color: crimson;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    color: rgb(250, 4, 221);
+    background-color: lightskyblue;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* MOBILE */
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "brand brand"
+    "nav tools";
+    color: green;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.brand {
+    grid-area: brand;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}    
+
+.nav {
+    grid-area: nav;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.tools {
+    grid-area: tools;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.hero {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+    "hero-feature"
+    "hero-action"
+    "desktop-ad";
+}
+
+.hero-feature {
+    display: none;
+}
+
+.hero-action {
+    grid-area: hero-action;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.desktop-ad {
+    display: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "article-feature"
+    "mobile-ad"
+    "article-listing";
+}
+
+.article-feature {
+    grid-area: article-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.mobile-ad {
+    grid-area: mobile-ad;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.sidebar-feature {
+    display: none;
+}
+
+.article-listing {
+    grid-area: article-listing;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+/* TABLET */
+
+@media (min-width: 576px) {
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    gap: 10px;
+    grid-template-areas: "brand nav tools";
+    color: green;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.brand {
+    grid-area: brand;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}    
+
+.nav {
+    grid-area: nav;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.tools {
+    grid-area: tools;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.hero {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "hero-feature"
+    "hero-action";
+}
+
+.hero-feature {
+    grid-area: hero-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.hero-action {
+    grid-area: hero-action;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.desktop-ad {
+    display: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas:
+    "article-feature"
+    "mobile-ad article-listing";
+}
+
+.article-feature {
+    grid-area: article-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.mobile-ad {
+    grid-area: mobile-ad;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.article-listing {
+    grid-area: article-listing;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.sidebar-feature {
+    grid-area: sidebar-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+}
+
+/* DESKTOP */
+
+@media (min-width: 992px) {
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    gap: 10px;
+    grid-template-areas: "brand nav tools";
+    color: green;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.brand {
+    grid-area: brand;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}    
+
+.nav {
+    grid-area: nav;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.tools {
+    grid-area: tools;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: "hero-feature hero-action desktop-ad";
+}
+
+.hero-feature {
+    grid-area: hero-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.hero-action {
+    grid-area: hero-action;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.desktop-ad {
+    grid-area: desktop-ad;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: "article-feature article-listing sidebar-feature";
+}
+
+.article-feature {
+    grid-area: article-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.mobile-ad {
+    display: none;
+}
+
+.article-listing {
+    grid-area: article-listing;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.sidebar-feature {
+    grid-area: sidebar-feature;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 5px;
+}
+}
