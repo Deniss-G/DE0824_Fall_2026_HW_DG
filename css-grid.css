@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    color: crimson;
+    color: rgb(177, 19, 239);
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
@@ -38,6 +38,49 @@ footer {
     text-align: center;
 }
 
+.brand {
+    color: rgb(250, 4, 221);
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.nav {
+    color: rgb(250, 4, 221);
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.tools {
+    color: rgb(250, 4, 221);
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.hero-feature {
+    color: rgb(250, 4, 221);
+    text-align: center;
+    background-color: rgb(251, 142, 102);
+}
+
+.hero-action {
+    color: rgb(250, 4, 221);
+    text-align: center;
+    background-color: rgb(251, 142, 102);
+}
+
+.article-feature {
+    background-color: lightblue;
+}
+
+.article-listing {
+    background-color: lightblue;
+}
+
+.sidebar-feature {
+    color: rgb(250, 4, 221);
+    text-align: center;
+}
+
 /* MOBILE */
 
 header {
@@ -59,7 +102,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }    
@@ -69,7 +111,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -79,7 +120,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -100,7 +140,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -143,7 +182,6 @@ main {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -169,7 +207,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }    
@@ -179,7 +216,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -189,7 +225,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -209,7 +244,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -219,7 +253,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -230,7 +263,7 @@ header {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 10px;
     grid-template-areas:
     "article-feature mobile-ad"
@@ -283,7 +316,7 @@ main {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
     grid-template-areas: "brand nav tools";
@@ -298,7 +331,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }    
@@ -308,7 +340,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -318,14 +349,13 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
 
 .hero {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 10px;
     grid-template-areas: "hero-feature hero-action desktop-ad";
@@ -337,7 +367,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -347,7 +376,6 @@ header {
     gap: 10px;
     border: 2px solid black;
     padding: 20px;
-    background-color: lightblue;
     border-radius: 20px;
     margin: 5px;
 }
@@ -355,14 +383,14 @@ header {
 .desktop-ad {
     display: block;
     grid-area: desktop-ad;
-    gap: 10px;
+    gap: 20px;
     border: none;
     background: transparent;
 }
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 10px;
     grid-template-areas: "article-feature article-listing sidebar-feature";
 }
@@ -394,7 +422,7 @@ main {
 .sidebar-feature {
     display: block;
     grid-area: sidebar-feature;
-    gap: 10px;
+    gap: 20px;
     border: 2px solid black;
     padding: 20px;
     background-color: lightblue;
