@@ -36,6 +36,7 @@ footer {
     border-radius: 20px;
     margin: 5px;
     text-align: center;
+    border: 2px solid black;
 }
 
 .brand {
@@ -57,15 +58,16 @@ footer {
 }
 
 .hero-feature {
-    color: rgb(250, 4, 221);
-    text-align: center;
+    color: rgb(242, 255, 0);
     background-color: rgb(251, 142, 102);
+    text-align: center;
+    
 }
 
 .hero-action {
-    color: rgb(250, 4, 221);
-    text-align: center;
+    color: rgb(242, 255, 0);
     background-color: rgb(251, 142, 102);
+    text-align: center;
 }
 
 .article-feature {
